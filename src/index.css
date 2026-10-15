@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Playfair+Display:wght@700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-paper text-charcoal antialiased;
+    background-image: radial-gradient(rgba(44, 44, 42, 0.08) 0.6px, transparent 0.6px);
+    background-size: 5px 5px;
+  }
+  button, input { font: inherit; }
+}
+
+@layer components {
+  .press-shadow { box-shadow: 4px 4px 0 #2c2c2a; }
+  .press-button { @apply border-2 border-charcoal bg-inkred px-5 py-3 font-display font-black uppercase tracking-wide text-paper transition-transform hover:-translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5; }
+  .paper-panel { @apply border-2 border-charcoal bg-paper; }
+}
