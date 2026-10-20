@@ -3,7 +3,7 @@
 > A personalised AI news aggregator built as a MERN stack semester project.
 
 **Authors:** Rao M. Zuraiz, Aleeshba Shahbaz  
-**Roll Number:** SP24-BCS-111, SP24-BCS-075  
+**Roll Number:** SP24-BCS-111(B), SP24-BCS-075(B)  
 **Institution:** COMSATS University Sahiwal Campus
 
 ## Folder structure
